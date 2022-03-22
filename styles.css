@@ -1,0 +1,15 @@
+#walrus-showing {
+  display: none;
+}
+#penguin-showing {
+  display: none;
+}
+.clickable, .peng-clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.clickable:hover, .peng-clickable:hover {
+  text-decoration: underline;
+}
+
