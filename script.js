@@ -8,5 +8,10 @@ $(document).ready(function() {
     $("#penguin-showing").toggle();
     $("#penguin-hidden").toggle();
   });
+
+  $(".sea-clickable").click(function() {
+    $("#sea-lion-showing").toggle();
+    $("#sea-lion-hidden").toggle();
+  });
 });
 

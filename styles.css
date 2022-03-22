@@ -1,15 +1,12 @@
-#walrus-showing {
+#walrus-showing, #penguin-showing, #sea-lion-showing {
   display: none;
 }
-#penguin-showing {
-  display: none;
-}
-.clickable, .peng-clickable {
+.clickable, .peng-clickable, .sea-clickable {
   cursor: pointer;
   color: #0088cc;
 }
 
-.clickable:hover, .peng-clickable:hover {
+.clickable:hover, .peng-clickable:hover, .sea-clickable:hover {
   text-decoration: underline;
 }
 
